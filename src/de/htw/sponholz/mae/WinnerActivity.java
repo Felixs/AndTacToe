@@ -14,7 +14,7 @@ public class WinnerActivity extends Activity {
 		if (winnerId != 0)
 			tv.setText("Spieler " + winnerId + " hat das Spiel gewonnen. Glückwunsch!");
 		else
-			tv.setText("Da ist wohl was schief gelaufen, es hat niemand gewonnen.");
+			tv.setText("Da ist wohl was schief gelaufen, es hat niemand gewonnen. Schade!!!");
 		
 	}
 }
